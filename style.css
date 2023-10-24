@@ -1,0 +1,89 @@
+body  {
+  background-image: url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?cs=srgb&dl=pexels-pixabay-531756.jpg&fm=jpg);
+  color: rgb(30, 30, 30);
+  font-family: Arial
+}
+
+p {
+  color: black;
+}
+
+h2 {
+  color: rgb(29, 97, 207);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1  {
+  font-family: font-family: 'Gabarito', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: black;
+}
+
+
+#profile-circle {
+  border-radius: 50%;
+  box-shadow: 2px 5px 3px black;
+}
+
+#ski {
+  border-radius: 5%
+  box-shadow: 2px 5px 3px blue;
+}
+
+.shadow {
+  box-shadow: 2px 5px 3px black;
+}
+
+.container {
+  width: 750px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+
+.card-white {
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+#list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#list-inline li {
+  display: inline;
+  padding: 10px;
+  color: rgb(78, 108, 213);
+}
+
+#list-inline li:hover {
+  background-color: rgb(230,230,230);
+}
+
+
+
+
